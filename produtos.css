@@ -1,0 +1,28 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.navegacao{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+.caixa{
+    position: relative;
+    width: 940px; /*Atualmente largura padrão da web*/
+    margin: 0 auto;
+}
+.navegacao li{
+    display: inline;
+    padding: 0 0 0 15px; /*Padding inicia a margem do top, direita, abaixo e esquerda*/
+}
+
+.navegacao a{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+}
