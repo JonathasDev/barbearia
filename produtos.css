@@ -6,7 +6,7 @@ header{
 .navegacao{
     position: absolute;
     top: 110px;
-    right: 0px;
+    right: 0;
 }
 
 .caixa{
@@ -16,7 +16,7 @@ header{
 }
 .navegacao li{
     display: inline;
-    padding: 0 0 0 15px; /*Padding inicia a margem do top, direita, abaixo e esquerda*/
+    margin: 0 0 0 15px; /*MARGIN inicia a margem do top, direita, abaixo e esquerda*/
 }
 
 .navegacao a{
@@ -25,6 +25,11 @@ header{
     text-decoration: none;
     color: #000000;
     font-size: 22px;
+}
+
+.navegacao a:hover{
+    color: #c78c19;
+    text-decoration: underline;
 }
 
 .produtos{
@@ -38,6 +43,26 @@ header{
     text-align: center;
     width: 30%;
     vertical-align: top;/*Alinhando o conteúdo pelo topo*/
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; /*Incluindo o padding dentro da porcentagem do widht*/
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    /*border: 2px solid #000000 ;*/ /*Os tres ultimos comandos podem ser representados dessa forma também*/
+    border-radius: 10px;
+}   
+
+.produtos li:hover{
+    border-color: #c78c19;
+}
+
+.produtos li:active{
+    border-color: #088c19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
 }
 
 .produtos h2{
@@ -52,4 +77,5 @@ header{
 .produto-preco{
     font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
