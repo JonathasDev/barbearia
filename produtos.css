@@ -3,17 +3,18 @@ header{
     padding: 20px 0;
 }
 
+.caixa{
+    position: relative;
+    width: 940px; /*Atualmente largura padrão da web*/
+    margin: 0 auto;
+}
+
 .navegacao{
     position: absolute;
     top: 110px;
     right: 0;
 }
 
-.caixa{
-    position: relative;
-    width: 940px; /*Atualmente largura padrão da web*/
-    margin: 0 auto;
-}
 .navegacao li{
     display: inline;
     margin: 0 0 0 15px; /*MARGIN inicia a margem do top, direita, abaixo e esquerda*/
@@ -21,10 +22,10 @@ header{
 
 .navegacao a{
     text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
     color: #000000;
+    font-weight: bold;
     font-size: 22px;
+    text-decoration: none;
 }
 
 .navegacao a:hover{
@@ -70,7 +71,7 @@ header{
     font-weight: bold;
 }
 
-.produtos-descricao{
+.produto-descricao{
     font-size: 18px;
 }
 
@@ -78,4 +79,16 @@ header{
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
 }
