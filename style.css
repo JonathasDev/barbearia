@@ -127,5 +127,27 @@ form label, form legend{
     font-weight: bold;
     font-size: 18px;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px;/*Arredondamento das bordas*/
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: rgb(201, 112, 5);
+    transition: 1s;/*Transição do background*/
+    transform: scale(1.2);/*Aumenta o elemento em 20% (1.2)*/
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px ;
 }
