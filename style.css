@@ -1,3 +1,6 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 header{
     background: #BBBBBB;
     padding: 20px 0;
@@ -160,7 +163,7 @@ td, th{
     text-align: center;
     font-size: 2em; /*Duas vezes o tamanho da fonte padrão*/
     margin: 0 0 1em;/*Margem de 1x o tamanho do texto*/
-    clear: left;
+    clear: left; /*Estudar novamente*/
 }
 
 .principal p{
@@ -181,6 +184,6 @@ td, th{
 
 .utensilio{
     width: 120px;
-    float: left;    
+    float: left; /*Flutuação da imagem à esquerda, o texto fica em volta*/    
     margin: 0 20px;
 }
