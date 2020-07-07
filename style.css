@@ -178,12 +178,50 @@ td, th{
     font-style: italic;
 }
 
-.imagembeneficios{
-    width: 60%;
-}
-
 .utensilio{
     width: 120px;
     float: left; /*Flutuação da imagem à esquerda, o texto fica em volta*/    
-    margin: 0 20px;
+    margin: 0 20px 20px 0;
+}
+
+.beneficios{
+    padding: 3em 0;
+}
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p{
+    margin: 0 0 2em 0;
+    text-align: center;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+.imagem-beneficios{
+    width: 59%; /*1% ficou para o espaço entre a linha do UL e da imagem no HTML*/
+}
+
+
+
+.video{
+    width: 560px;
+    margin: 2em auto;
 }
