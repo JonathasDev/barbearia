@@ -252,8 +252,21 @@ td, th{
 }
 
 @media screen and (max-width: 480px){
-    body{
-        background: red;
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .produto-preco, .produto-descricao{
+        width: auto;
+    }
+    h1{
+        text-align: center;
     }
 
+    .navegacao{
+        position: static;
+    }
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+    }
+
+    .produtos li{
+        width: 97%;
+    }
 }
